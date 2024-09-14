@@ -1,0 +1,46 @@
+body {
+    font-family: Tahoma, Helvetica, sans-serif;
+    height: 100%;
+    background-color: #09b77c;
+}
+
+.container {
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+}
+
+.container img {
+    border-radius: 50%;
+}
+
+h1, h2 ,h3 {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+}
+
+#secondes , #tens , #nn{
+    font-size: 2em;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+}
+
+button:hover {
+    background-color: white;
+    color: #09b77c;
+    font-weight: 650;
+    cursor: pointer;
+    text-transform: capitalize;
+}
